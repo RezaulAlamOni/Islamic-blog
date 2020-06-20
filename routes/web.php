@@ -1,0 +1,30 @@
+<?php
+
+Route::get('/', 'IslamController@index');
+Route::get('salat', 'IslamController@salat');
+Route::get('sirk-taohid', 'IslamController@sirkTaohid');
+Route::get('sium', 'IslamController@sium');
+Route::get('jakat', 'IslamController@jakat');
+Route::get('hazz', 'IslamController@hazz');
+Route::get('jihad', 'IslamController@jihad');
+Route::get('bibaho', 'IslamController@bibaho');
+Route::get('akida', 'IslamController@akida');
+Route::get('behave', 'IslamController@behave');
+Route::get('doya', 'IslamController@doya');
+Route::get('fojilot', 'IslamController@fojilot');
+Route::get('bidayat', 'IslamController@bidayat');
+Route::get('jiboni', 'IslamController@jiboni');
+Route::get('extra', 'IslamController@extra');
+Route::get('salat-details/{id}', 'IslamController@singleSalat')->name('single-salat');
+Route::get('sium-details/{id}', 'IslamController@singleSium')->name('single-sium');
+Route::get('jakat-details/{id}', 'IslamController@singleJakat')->name('single-jakat');
+Route::get('hazz-details/{id}', 'IslamController@singleHazz')->name('single-hazz');
+Route::get('jihad-details/{id}', 'IslamController@singleJihad')->name('single-jihad');
+Route::get('bibaho-details/{id}', 'IslamController@singleBibaho')->name('single-bibaho');
+Route::get('akida-details/{id}', 'IslamController@singleAkida')->name('single-akida');
+Route::get('behave-details/{id}', 'IslamController@singleBehave')->name('single-behave');
+Route::get('fojilot-details/{id}', 'IslamController@singleFojilot')->name('single-fojilot');
+Route::get('bidayat-details/{id}', 'IslamController@singleBidayat')->name('single-bidayat');
+Route::get('doya-details/{id}', 'IslamController@singleDoya')->name('single-doya');
+Route::get('extra-details/{id}', 'IslamController@singleExtra')->name('single-extra');
+Route::get('sirk-touhid-details/{id}', 'IslamController@singleSirkTouhid')->name('single-sirk-touhid');

@@ -1,0 +1,2 @@
+[16-Jan-2020 00:35:51 America/Chicago] PHP Parse error:  syntax error, unexpected 'class' (T_CLASS), expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in /home2/islamicinfos/public_html/index.php on line 50
+[16-Jan-2020 00:42:50 America/Chicago] PHP Parse error:  syntax error, unexpected 'class' (T_CLASS), expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in /home2/islamicinfos/public_html/index.php on line 50
